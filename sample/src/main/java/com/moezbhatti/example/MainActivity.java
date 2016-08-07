@@ -1,10 +1,9 @@
 package com.moezbhatti.example;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import com.moezbhatti.recycleradapter.AdapterFactory;
 import com.moezbhatti.recycleradapter.MBAdapter;
 
 import java.util.ArrayList;
@@ -23,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             list.add("test string " + i);
         }
 
-        MBAdapter<String> adapter = AdapterFactory.create(this, SimpleViewHolder.class, R.layout.list_item_simple);
+        MBAdapter<String> adapter = new SimpleAdapter(this);
         adapter.setItems(list);
 
         mList = (RecyclerView) findViewById(R.id.list);
