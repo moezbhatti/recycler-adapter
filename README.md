@@ -112,7 +112,7 @@ repositories {
 
 ``` gradle
 dependencies {
-  compile 'com.github.moezbhatti:recycler-adapter:0.1.1'
+  compile 'com.github.moezbhatti:recycler-adapter:0.1.2'
 }
 ```
 
@@ -130,7 +130,7 @@ dependencies {
 <dependency>
     <groupId>com.github.moezbhatti</groupId>
     <artifactId>recycler-adapter</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
 </dependency>
 ```
 
